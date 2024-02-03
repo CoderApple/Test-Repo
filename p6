@@ -22,11 +22,6 @@ X = data[:, 1:] # all colsexcept 1st
 y = data[:, 0] # all rows, just 0 col
 X.shape, y.shape
 
-
-# X = df.drop('class', axis=1)
-# y = df['class']
-
-
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 classifier = GaussianNB()
 
