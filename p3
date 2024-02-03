@@ -26,10 +26,6 @@ s_final, g_final = learn(concepts,target)
 print("Final S:", s_final, sep="\n")
 print("Final G:", g_final, sep="\n")
 
-
-
-
-
 Data sets
 Sky,AirTemp,Humidity,Wind,Water,Forecast,EnjoySport
 Sunny,Warm,Normal,Strong,Warm,Same,Yes
